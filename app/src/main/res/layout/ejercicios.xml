@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/nombre.ejercicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="29sp"
+        android:text="Bíceps"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        />
+
+    <ImageView
+        android:id="@+id/ing_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:text="Ejercicio"
+        android:src="@drawable/biceps"/>
+
+    <TextView
+        android:id="@+id/tituloejer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haz flexiones de bíceps concentradas. "
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+
+
+    <TextView
+        android:id="@+id/desc_ejer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Siéntate en un banco de entrenamiento con los pies en el suelo, separados a la anchura de los hombros. Inclínate hacia adelante de manera que el codo derecho toque el interior de la rodilla derecha y el brazo esté completamente extendido. Flexiona el brazo trayendo la mancuerna hacia el pecho, manteniendo el codo en el mismo lugar."
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

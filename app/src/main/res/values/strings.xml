@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProyectoAlvErwing</string>
+    <string name="title_activity_boton_navegacion">botonNavegacion</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/nombre_alimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="29sp"
+        android:text="Pechuga de pollo"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        />
+
+    <ImageView
+        android:id="@+id/ing_Alimento"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:text="Ejercicio"
+        android:src="@drawable/pechuga"/>
+
+    <TextView
+        android:id="@+id/titulo_ingre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes: "
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="23sp"/>
+
+    <TextView
+        android:id="@+id/desc_ingre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4-6 filetes de pechuga de pollo,  cucharadita de pimentón, 2 limones, pimienta negra, sal, 4 cucharadas de aceite de oliva virgen extra, pimienta."
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/titulo_prepara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elaboración: "
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="23sp"/>
+
+    <TextView
+        android:id="@+id/desc_prepara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salpimentar y sazonar con el tomillo. Batir en un cuenco el zumo de 1 limón, 2 cucharadas de aceite de oliva. Verter sobre la carne, tapar y dejar marinar durante al menos 1 hora, Calentar una plancha. Añadir la salsa poco a poco mientras la carne se va cocinando a temperatura alta."
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>
